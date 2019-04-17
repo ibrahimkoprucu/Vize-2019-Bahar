@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandSorusu", "StandSorusu\StandSorusu.csproj", "{C734E300-C070-4173-8BE4-200D721C1B74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandForm", "StandForm\StandForm.csproj", "{31DB8A11-B2B0-417B-BD01-77EB226AE90D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C734E300-C070-4173-8BE4-200D721C1B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C734E300-C070-4173-8BE4-200D721C1B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C734E300-C070-4173-8BE4-200D721C1B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DB8A11-B2B0-417B-BD01-77EB226AE90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DB8A11-B2B0-417B-BD01-77EB226AE90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DB8A11-B2B0-417B-BD01-77EB226AE90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DB8A11-B2B0-417B-BD01-77EB226AE90D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
