@@ -111,17 +111,17 @@ namespace BusinessLayer
 
             for (int i = 0; i < standSayisi; i++)
             {
-                for (int j = 0; j < standlar[i].Length; j += 2)
+                for (int j = 3; j < standlar[i].Length - 1; j++)
                 {
-                    if (standlar[i][j + 4] == 2 && standlar[i][j + 3] > enYasliKadinYas)
+                    if (standlar[i][j + 1] == 2 && standlar[i][j] > enYasliKadinYas)
                     {
-                        enYasliKadinYas = standlar[i][j + 3];
+                        enYasliKadinYas = standlar[i][j];
                         enYasliKadinStandIndex = i;
                     }
 
-                    if (standlar[i][j + 4] == 1 && standlar[i][j + 3] > enYasliErkekYas)
+                    if (standlar[i][j + 1] == 1 && standlar[i][j] > enYasliErkekYas)
                     {
-                        enYasliErkekYas = standlar[i][j + 3];
+                        enYasliErkekYas = standlar[i][j];
                         enYasliErkekStandIndex = i;
                     }
                 }
