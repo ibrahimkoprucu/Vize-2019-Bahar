@@ -55,6 +55,7 @@ namespace SatisPrimSorusu
                     Console.WriteLine("{0}. elemanSayisi {1} kategoriden {2} satış yapmıştır.", i + 1, s + 1, primler[i, s]);
                 }
                 primToplam = primler[i, 0] * 200 + primler[i, 1] * 400 + primler[i, 2] * 600;
+
                 Console.WriteLine("{0}. elemanın prim toplamı {1} dir", i + 1, primToplam);
             }
         }
